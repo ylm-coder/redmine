@@ -1,0 +1,12 @@
+<% if @project.module_enabled?(:project_manager)  %>
+<h2><%= @project.name %> Project Manager</h2>
+<%= link_to "Sort by Issue", "/project_manager?project_id=#{@project.id}&order=issue_id" %>
+
+<% @changes.each do |change| %>
+  <div>
+    <%= render_change_for(change) %>
+  </div>
+<% end %>
+<% else %>
+  <h3>Module is disabled!</h3>
+<% end %>
