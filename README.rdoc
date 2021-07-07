@@ -1,3 +1,7 @@
 = projets_manager
 
 Description goes here
+## Redmine İş Takip Sistemi
+
+Redmine eklentisinin sıfırdan bir Redmine üzerine kurulumu için  plugins klasörüne kopyalanacak ve ayarlardan aktif hale getirilmesi gerekecektir. 
+
